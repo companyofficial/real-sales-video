@@ -1,0 +1,433 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Sisow Payment Methods\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-17 13:27+0000\n"
+"POT-Revision-Date: Thu Nov 12 2015 13:09:23 GMT+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: woocommerce-payment-sisow.php:29
+msgid "The Sisow payment methods plugin requires woocommerce to be active"
+msgstr ""
+
+#: woocommerce-payment-sisow.php:33
+msgid ""
+"Curl is not installed.<br />In order to use the Sisow payment methods, you "
+"must install install CURL.<br />Ask your system administrator to install "
+"php_curl"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:68
+msgid "Sisow settings"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:70
+msgid ""
+"The following options are required to use the Sisow Gateway and are used by "
+"all Sisow Payment Methods"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:74
+msgid "Merchant ID"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:76
+msgid "The Merchant ID from Sisow, you can find it in your Sisow account"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:80
+msgid "Merchant Key"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:82
+msgid "The Merchant Key from Sisow, you can find it in your Sisow account"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:86
+msgid "Shop ID"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:88
+msgid "The Shop ID from Sisow, you can find it in your Sisow account"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:92
+msgid "Set completed"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:94
+msgid "Mark the order direct as completed"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:98
+msgid "Don't cancel"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:100
+msgid "Don't cancel the order after a failed payment"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:104
+msgid "Add utm_nooverride=1"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:106
+msgid "Add utm_nooverride=1 recommended if you use Google Analytics"
+msgstr ""
+
+#: includes/classes/Sisow/Gateways.php:192
+#: includes/classes/Sisow/Gateways.php:198
+#: includes/classes/Sisow/Gateways.php:202
+#: includes/classes/Sisow/Gateways.php:206
+#, php-format
+msgid "Status recieved from Sisow: %s"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:59
+#, php-format
+msgid "Activate this module to accept %s transactions"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:82
+msgid "Documentation"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:84
+msgid ""
+"<a href=\"https://www.sisow.nl/Sisow/down.aspx?doc=HandleidingWooCommerce."
+"pdf\" target=\"_blank\">Click to open documentation</a>."
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:96
+#, php-format
+msgid "Enable Sisow %s"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:111
+#, php-format
+msgid "Pay with %s"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:117
+msgid "Description on the bank account"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:121
+msgid "Testmode"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:123
+msgid "Enable testmode"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:130
+msgid "Make AfterPay invoice"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:132
+msgid "Create AfterPay invoice direct after credit check"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:139
+msgid "Days"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:144
+msgid "Include paylink"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:144
+msgid "Include bank account details"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:147
+msgid "Include"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Abstract.php:246
+#, php-format
+msgid "%s created"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:25
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:25
+#: includes/classes/Sisow/Gateway/Capayable.php:25
+#: includes/classes/Sisow/Gateway/Focum.php:25
+#: includes/classes/Sisow/Gateway/Homepay.php:23
+#: includes/classes/Sisow/Gateway/Maestro.php:18
+#: includes/classes/Sisow/Gateway/Mastercard.php:18
+#: includes/classes/Sisow/Gateway/Paypalec.php:18
+#: includes/classes/Sisow/Gateway/Visa.php:18
+#: includes/classes/Sisow/Gateway/Vpay.php:18
+#: includes/classes/Sisow/Gateway/Vvv.php:23
+#: includes/classes/Sisow/Gateway/Webshopgiftcard.php:23
+msgid "Warning"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:27
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:27
+#: includes/classes/Sisow/Gateway/Capayable.php:27
+#: includes/classes/Sisow/Gateway/Focum.php:27
+#: includes/classes/Sisow/Gateway/Homepay.php:25
+#: includes/classes/Sisow/Gateway/Maestro.php:20
+#: includes/classes/Sisow/Gateway/Mastercard.php:20
+#: includes/classes/Sisow/Gateway/Visa.php:20
+#: includes/classes/Sisow/Gateway/Vpay.php:20
+#: includes/classes/Sisow/Gateway/Vvv.php:25
+#: includes/classes/Sisow/Gateway/Webshopgiftcard.php:25
+msgid ""
+"An additional contract is required for this payment method, please contact "
+"<a href=\"mailto:sales@sisow.nl\">sales@sisow.nl</a>."
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:38
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:38
+#: includes/classes/Sisow/Gateway/Capayable.php:37
+#: includes/classes/Sisow/Gateway/Focum.php:37
+msgid "Gender"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:40
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:40
+#: includes/classes/Sisow/Gateway/Capayable.php:39
+#: includes/classes/Sisow/Gateway/Focum.php:39
+msgid "Please Choose"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:41
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:41
+#: includes/classes/Sisow/Gateway/Capayable.php:40
+#: includes/classes/Sisow/Gateway/Focum.php:40
+msgid "Male"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:42
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:42
+#: includes/classes/Sisow/Gateway/Capayable.php:41
+#: includes/classes/Sisow/Gateway/Focum.php:41
+msgid "Female"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:46
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:46
+#: includes/classes/Sisow/Gateway/Focum.php:45
+msgid "Phone"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:50
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:50
+#: includes/classes/Sisow/Gateway/Capayable.php:45
+#: includes/classes/Sisow/Gateway/Focum.php:49
+msgid "Birthdate"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:52
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:52
+#: includes/classes/Sisow/Gateway/Capayable.php:47
+#: includes/classes/Sisow/Gateway/Focum.php:51
+msgid "Day"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:57
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:57
+#: includes/classes/Sisow/Gateway/Capayable.php:52
+#: includes/classes/Sisow/Gateway/Focum.php:56
+msgid "Month"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:58
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:58
+#: includes/classes/Sisow/Gateway/Capayable.php:53
+#: includes/classes/Sisow/Gateway/Focum.php:57
+msgid "January"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:59
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:59
+#: includes/classes/Sisow/Gateway/Capayable.php:54
+#: includes/classes/Sisow/Gateway/Focum.php:58
+msgid "February"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:60
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:60
+#: includes/classes/Sisow/Gateway/Capayable.php:55
+#: includes/classes/Sisow/Gateway/Focum.php:59
+msgid "March"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:61
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:61
+#: includes/classes/Sisow/Gateway/Capayable.php:56
+#: includes/classes/Sisow/Gateway/Focum.php:60
+msgid "April"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:62
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:62
+#: includes/classes/Sisow/Gateway/Capayable.php:57
+#: includes/classes/Sisow/Gateway/Focum.php:61
+msgid "May"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:63
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:63
+#: includes/classes/Sisow/Gateway/Capayable.php:58
+#: includes/classes/Sisow/Gateway/Focum.php:62
+msgid "June"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:64
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:64
+#: includes/classes/Sisow/Gateway/Capayable.php:59
+#: includes/classes/Sisow/Gateway/Focum.php:63
+msgid "July"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:65
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:65
+#: includes/classes/Sisow/Gateway/Capayable.php:60
+#: includes/classes/Sisow/Gateway/Focum.php:64
+msgid "August"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:66
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:66
+#: includes/classes/Sisow/Gateway/Capayable.php:61
+#: includes/classes/Sisow/Gateway/Focum.php:65
+msgid "September"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:67
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:67
+#: includes/classes/Sisow/Gateway/Capayable.php:62
+#: includes/classes/Sisow/Gateway/Focum.php:66
+msgid "October"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:68
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:68
+#: includes/classes/Sisow/Gateway/Capayable.php:63
+#: includes/classes/Sisow/Gateway/Focum.php:67
+msgid "November"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:69
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:69
+#: includes/classes/Sisow/Gateway/Capayable.php:64
+#: includes/classes/Sisow/Gateway/Focum.php:68
+msgid "December"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:72
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:72
+#: includes/classes/Sisow/Gateway/Capayable.php:67
+#: includes/classes/Sisow/Gateway/Focum.php:71
+msgid "Year"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:106
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:96
+#: includes/classes/Sisow/Gateway/Capayable.php:91
+#: includes/classes/Sisow/Gateway/Focum.php:89
+msgid "Please select your gender"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:112
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:102
+#: includes/classes/Sisow/Gateway/Focum.php:95
+msgid "Please fill in your phonenumber"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpay.php:118
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:108
+#: includes/classes/Sisow/Gateway/Capayable.php:97
+#: includes/classes/Sisow/Gateway/Focum.php:101
+msgid "Please select your birthdate"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:79
+#: includes/classes/Sisow/Gateway/Capayable.php:74
+msgid "CoC number"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Afterpayb2b.php:114
+msgid "Please fill in your coc number"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Capayable.php:74
+msgid "Only for B2B"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Eps.php:38
+#: includes/classes/Sisow/Gateway/Giropay.php:38
+msgid "Bankcode"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Eps.php:49
+#: includes/classes/Sisow/Gateway/Giropay.php:49
+msgid "Please insert a bank code"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Focum.php:77
+msgid "IBAN"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Focum.php:107
+msgid "Please fill in your IBAN"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Ideal.php:28
+msgid "Choose your bank"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Ideal.php:30
+msgid "Please choose..."
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Ideal.php:43
+msgid "Please select your bank"
+msgstr ""
+
+#: includes/classes/Sisow/Gateway/Paypalec.php:20
+msgid ""
+"Extra settings are required for this payment method, contact <a "
+"href=\"mailto:support@sisow.nl\">support@sisow.nl</a> for more information."
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce Sisow Payment Methods"
+msgstr ""
+
+#. Description of the plugin
+msgid "Sisow payment methods for woocommerce"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/sisow-for-woocommerce/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Sisow"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.sisow.nl"
+msgstr ""

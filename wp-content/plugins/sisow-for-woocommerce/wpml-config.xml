@@ -1,0 +1,98 @@
+<wpml-config>  
+    <admin-texts>
+        <key name="sisow_shopid" />
+        <key name="woocommerce_bunq_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+        <key name="woocommerce_ebill_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_eps_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_focum_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_giropay_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_homepay_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_ideal_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_idealqr_settings">
+             <key name="title" />
+             <key name="description" />
+             <key name="description_bankaccount"/>
+         </key>
+
+		<key name="woocommerce_maestro_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_mastercard_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_mistercash_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_overboeking_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_paypalec_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_sofort_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_visa_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_vpay_settings">
+             <key name="title" />
+             <key name="description" />
+             <key name="description_bankaccount"/>
+         </key>
+		<key name="woocommerce_vvv_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+		<key name="woocommerce_webshop_settings">
+            <key name="title" />
+            <key name="description" />
+            <key name="description_bankaccount"/>
+        </key>
+    </admin-texts>    
+</wpml-config>
+
+

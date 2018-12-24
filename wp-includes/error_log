@@ -1,0 +1,2 @@
+[20-Nov-2018 13:18:27 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/realsalesvideo/public_html/wp-includes/locale.php on line 10
+[01-Dec-2018 00:29:26 UTC] PHP Fatal error:  Class 'Walker' not found in /home/realsalesvideo/public_html/wp-includes/class-walker-nav-menu.php on line 17
